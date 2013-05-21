@@ -20,7 +20,6 @@
 	"source": {
 		"type": "git",
 		"url": "https://github.com/migelsabre/image.git",
-		"reference": "default"
 	},
 	"autoload": {
 		"classmap": [".", "drivers/"]
