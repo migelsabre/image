@@ -19,8 +19,7 @@
 	],
 	"source": {
 		"type": "git",
-		"url": "https://migelsabre@bitbucket.org/migelsabre/image",
-		"reference": "default"
+		"url": "https://github.com/migelsabre/image",
 	},
 	"autoload": {
 		"classmap": [".", "drivers/"]
