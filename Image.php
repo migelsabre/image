@@ -6,8 +6,6 @@ Yii::import('ext.image2.Image_Driver');
  * Manipulate images using standard methods such as resize, crop, rotate, etc.
  * This class must be re-initialized for every image you wish to manipulate.
  *
- * $Id: Image.php 2010-01-10 0:0:0 Burzum $
- *
  * @package    Image
  * @author     Kohana Team
  * @copyright  (c) 2007-2008 Kohana Team
