@@ -3,7 +3,6 @@
 	"description": "Convert Kohana Image Library to Yii",
 	"keywords": ["image", "thumbnails"],
 	"homepage": "http://www.yiiframework.com/extension/image",
-	"type": "library",
 	"license": "New BSD License",
 	"version": "1.0.0",
 	"authors": [
@@ -15,26 +14,19 @@
 		{
 			"name": "Sablin Mihail",
 			"email": "mihail@webprogrammist.com",
-			"homepage": "http://rmcreative.ru/",
 			"role": "Contributor"
 		}
 	],
-	"autoload": {
-	        "classmap": [".", "./drivers"]
+	"source": {
+		"type": "git",
+		"url": "https://migelsabre@bitbucket.org/migelsabre/image",
+		"reference": "default"
 	},
-	"repositories": {
-		"migelsabre/image": {
-			"type": "vcs",
-			"url": "https://migelsabre@bitbucket.org/migelsabre/image.git"
-		},
-		"yiisoft/yii": {
-			"type": "vcs",
-			"url": "https://github.com/yiisoft/yii.git"
-		}
+	"autoload": {
+		"classmap": [".", "drivers/"]
 	},
 	"require": {
-		"yiisoft/yii": "master",
-		"php": ">=5.1.0",
-		"yii": ">=1.1.0"
+		"php": ">=5.1.0"
 	}
 }
+
