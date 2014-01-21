@@ -19,11 +19,13 @@
 	],
 	"source": {
 		"type": "vcs",
-		"url": "https://github.com/migelsabre/image"
+		"url": "https://github.com/migelsabre/image",
+		"reference": "master"
 	},
 	"dist": {
 		"type": "vcs",
-		"url": "https://github.com/migelsabre/image"
+		"url": "https://github.com/migelsabre/image",
+		"reference": "master"
 	},
 	"autoload": {
 		"classmap": [".", "drivers/"]
